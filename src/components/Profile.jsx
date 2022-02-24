@@ -37,9 +37,7 @@ function Profile(props) {
             <div className="text-[20px] mt-4 ml-4 justify-evenly opacity-75 space-y-3">
                 <p><FontAwesomeIcon icon={faLocationDot} /> {props.location}</p>
                 <p><FontAwesomeIcon icon={faTwitter} /> {props.twitter}</p>
-                <p><FontAwesomeIcon icon={faLink} /> {props.blog} </p>
-                <p></p>
-                <p></p>
+                <a href={props.url}><FontAwesomeIcon icon={faLink} /> Github Profile URL </a>
             </div>
         </div>
         </div>
