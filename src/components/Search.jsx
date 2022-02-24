@@ -37,7 +37,7 @@ function Search() {
               following={data.following}
               location={data.location}
               twitter={data.twitter_username}
-              blog={data.blog}
+              url={data.html_url}
             />
           </div>
           , document.getElementById("root"))
